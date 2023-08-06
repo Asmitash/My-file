@@ -1,0 +1,206 @@
+/* /* 
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  background-color: #f2f2f2;
+
+  color: #333;
+
+}
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+nav li {
+
+  margin-right: 20px;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+}
+
+section {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+}
+
+h1, h2 {
+
+  font-weight: normal;
+
+}
+
+h1 {
+
+  font-size: 36px;
+
+}
+
+h2 {
+
+  font-size: 24px;
+
+  margin-top: 40px;
+
+}
+
+button {
+
+  background-color: #333;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  margin-top: 20px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background-color: #555;
+
+}
+
+footer {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 20px;
+
+  text-align: center;
+} */
+
+
+
+* {
+    padding: 0;
+    box-sizing: box-border;
+    font-family: 'poppins', san-serif;
+
+ } 
+ body {
+  background: url(https://wallpaperaccess.com/full/86288.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: Middle;
+    z-index: 99;
+
+ }
+.Logo {
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a {
+   
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+
+}
+
+
+
+.navbar .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 5s;
+}
+
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    opacity: 85;
+}
+
+
+.section {
+   min-height: 100vh;
+ 
+
+
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100%;
+    background-color: transparent ;
+}
